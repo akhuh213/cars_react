@@ -2,6 +2,7 @@ import React from 'react';
 import logo from './tesla.png';
 import './App.css';
 import Tesla from './Tesla';
+import Model_E from './Model_E'
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         </a>
       </header>
       <Tesla />
+      <Model_E/>
     </div>
   );
 }

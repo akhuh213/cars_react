@@ -6,7 +6,7 @@ class Tesla extends Component {
         return(
             <div>
                 <h1>Tesla</h1>
-                <img src={} alt="Model Y photo" />
+                <img src={modelY} alt="Model Y" />
                 <p>
                     Model:Model Y
                 </p>
@@ -15,4 +15,4 @@ class Tesla extends Component {
     }
 }
 
-export default Tesla
+export default Tesla;
